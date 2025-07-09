@@ -102,10 +102,9 @@ class HomeController extends Controller
         ]);
         $resident = Ocupant::findOrFail($request->ocupant_id);
         $start_date = Carbon::parse($request->start_date);
-        $existingHistory = HouseOcupantHistory::where('ocupant_id', $resident->ocupant_id)
-            ->where('home_id', $home->id)
-            ->where('is_current_resident', true)
-            ->whereDate('start_date', '<=', $start_date)
+        $existingHistory = HouseOcupantHistory::where("ocupant_id", $resident->id)
+            ->where("home_id", $home->id)
+            ->where("is_current_resident", true)
             ->first();
         if($existingHistory){
             return response()->json([

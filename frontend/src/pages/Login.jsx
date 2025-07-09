@@ -91,6 +91,14 @@ const Login = () => {
               </div>
             </form>
           </CardContent>
+          <div className="p-6 text-left text-sm text-muted-foreground flex flex-col">
+            <p className="m-0">
+              email: <span className="text-primary">admin@gmail.com</span>
+            </p>
+            <p className="m-0">
+              password: <span className="text-primary">password123</span>
+            </p>
+          </div>
         </Card>
       </div>
     </div>

@@ -35,8 +35,7 @@ const router = createBrowserRouter(
           <DashboardLayout/>
         </ProtectedRoute>
         }>
-        <Route index element={<Dashboard/>}></Route>
-        <Route path="laporan" element={<Report/>}></Route>
+        <Route index element={<Report/>}></Route>
         <Route path="rumah" element={<Home/>}></Route>
         <Route path="rumah/:id/detail" element={<DetailHome/>}></Route>
         <Route path="penghuni" element={<Ocupant/>}></Route>

@@ -21,7 +21,7 @@ const Menu = {
     projects: [
       {
         name: "Laporan",
-        url: "/laporan",
+        url: "/",
         icon: Database,
       },
       {

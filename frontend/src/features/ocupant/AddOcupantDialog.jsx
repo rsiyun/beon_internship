@@ -66,7 +66,7 @@ const [imagePreview, setImagePreview] = useState(null);
           />
           {/* resident status */}
             <DiFormSelect 
-                id={"status"}
+                id={"resident_status"}
                 label={"Status"}
                 control={control}
                 rules={{required: "status harus dipilih"}}

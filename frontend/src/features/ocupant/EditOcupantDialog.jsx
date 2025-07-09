@@ -53,7 +53,7 @@ const EditOcupantDialog = ({ open, onOpenChange, onSubmit, ocupant }) => {
     formData.append("resident_status", data.resident_status);
     formData.append("is_married", data.is_married);
 
-    if (data.identity_card[0]) {
+    if (data.identity_card && data.identity_card.length > 0) {
       formData.append("identity_card", data.identity_card[0]);
     }
     await onSubmit(formData, ocupant.id);
@@ -79,7 +79,7 @@ const EditOcupantDialog = ({ open, onOpenChange, onSubmit, ocupant }) => {
             />
             {/* resident status */}
             <DiFormSelect
-              id={"status"}
+              id={"resident_status"}
               label={"Status"}
               control={control}
               rules={{ required: "status harus dipilih" }}

@@ -52,7 +52,6 @@ const Ocupant = () => {
     }
   };
   const handleOpenModalUpdateOcupant = (ocupant) => {
-    console.log("Selected Ocupant:", ocupant);
     setSelectedOcupant(ocupant);
     setOpenModalUpdateOcupant(true);
   };

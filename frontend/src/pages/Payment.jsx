@@ -97,7 +97,7 @@ const Payment = () => {
           filters.dues_type_id,
           filters.month,
           filters.year,
-          filters.payment_status,
+          filters.status,
         ]
        });
        setOpenModalAddPayment(false);
