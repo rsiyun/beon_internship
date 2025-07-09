@@ -62,7 +62,7 @@ Ini adalah panduan untuk menginstal dan menjalankan proyek ini di lingkungan lok
     ```
 
 9.  **Link Storage (Jika Ada Upload File):**
-    Jika aplikasi Anda memiliki fitur *upload* file (seperti gambar KTP atau profil), Anda perlu membuat *symlink* ke *storage* agar file-file tersebut dapat diakses secara publik.
+    Anda perlu membuat *symlink* ke *storage* agar file-file tersebut dapat diakses secara publik.
     ```bash
     php artisan storage:link
     ```
