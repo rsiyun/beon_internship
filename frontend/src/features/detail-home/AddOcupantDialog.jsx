@@ -50,9 +50,9 @@ const AddOcupantDialog = ({ open, onOpenChange, onSubmit }) => {
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
-          <DialogTitle>Edit Rumah</DialogTitle>
+          <DialogTitle>Tambah Penghuni rumah</DialogTitle>
           <DialogDescription>
-            Isi detail rumah yang akan dirubah.
+            Isi detail penghuni rumah yang akan ditambahkan.
           </DialogDescription>
         </DialogHeader>
         <form onSubmit={handleSubmit(handleFormSubmit)} className="space-y-4">

@@ -50,9 +50,9 @@ const RemoveOcupantDialog = ({ open, onOpenChange, onSubmit, ocupant }) => {
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
-          <DialogTitle>Edit Rumah</DialogTitle>
+          <DialogTitle>Hapus penghuni rumah</DialogTitle>
           <DialogDescription>
-            Isi detail rumah yang akan dirubah
+            Isi detail penghuni rumah yang akan dihapus
           </DialogDescription>
         </DialogHeader>
         <form onSubmit={handleSubmit(handleFormSubmit)} className="space-y-4">
