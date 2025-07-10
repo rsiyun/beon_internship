@@ -117,6 +117,9 @@ Setelah kedua server (backend Laravel dan frontend React JS) berjalan, Anda seha
 
 ---
 
+# Entity Relationship diagram
+![Screenshot Entity Relationship diagram](screenshots/erd.png)
+
 # Rangkuman Fitur Aplikasi Manajemen RT/RW
 
 Berikut adalah rangkuman visual dari fitur-fitur utama yang telah diimplementasikan dalam aplikasi ini. Setiap *screenshot* menunjukkan fungsionalitas inti dari fitur tersebut.

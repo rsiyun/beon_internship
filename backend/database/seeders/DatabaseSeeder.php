@@ -25,11 +25,11 @@ class DatabaseSeeder extends Seeder
         ]);
         DuesType::factory()->create([
             'type_name' => 'kebersihan',
-            'default_amount_per_month' => 80000,
+            'default_amount_per_month' => 15000,
         ]);
         DuesType::factory()->create([
             'type_name' => 'satpam',
-            'default_amount_per_month' => 60000,
+            'default_amount_per_month' => 100000,
         ]);
         $home = Home::factory()->create([
             'house_number' => 'A-01',
